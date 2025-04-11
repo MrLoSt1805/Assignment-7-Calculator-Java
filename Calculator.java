@@ -5,5 +5,10 @@ public class Calculator {
         return a + b;
     }
 
+    // Function to subtract two numbers
+    public int subtract(int a, int b) {
+        return a - b;
+    }
+
     
 }
