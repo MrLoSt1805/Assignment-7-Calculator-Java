@@ -31,5 +31,9 @@ public class Calculator {
         return a * a * a;
     }
 
-    
+    // Function to return square root with exception for negative numbers
+    public double squareRoot(int a) throws ArithmeticException {
+        if (a < 0) throw new ArithmeticException("Cannot take square root of negative number");
+        return Math.sqrt(a);
+    }
 }
