@@ -21,5 +21,15 @@ public class Calculator {
         return (double) a / b;
     }
 
+    // Function to return the square of a number
+    public int square(int a) {
+        return a * a;
+    }
+
+    // Function to return the cube of a number
+    public int cube(int a) {
+        return a * a * a;
+    }
+
     
 }
