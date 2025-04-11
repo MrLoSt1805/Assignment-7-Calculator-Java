@@ -10,5 +10,10 @@ public class Calculator {
         return a - b;
     }
 
+    // Function to multiply two numbers
+    public int multiply(int a, int b) {
+        return a * b;
+    }
+
     
 }
